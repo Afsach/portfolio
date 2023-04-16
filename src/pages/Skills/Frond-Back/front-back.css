@@ -1,0 +1,61 @@
+div.frontend-container {
+    width : 550px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.14);
+}
+
+div h5.skill-heading {
+    text-align: center;
+    margin: 1.5rem 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+ul.skills-items {
+    list-style: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-gap: 1rem 3rem;
+    padding: 2rem;
+    margin: auto;
+}
+
+ul li.skill-item {
+    height: 125px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.skill-icon {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+@media screen and (max-width : 400px) {
+
+    div.frontend-container {
+       width: 100%;
+        padding: 1.5rem;
+        margin: 1.5rem;
+    }
+
+    ul.skills-items {
+        display: flex;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem;
+    }
+}

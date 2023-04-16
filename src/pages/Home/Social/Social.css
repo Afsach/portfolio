@@ -1,0 +1,25 @@
+div.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 1rem;
+    font-size: 1.4rem;
+}
+
+div.social a {
+    color : black;
+    transition: transform .3s;
+}
+
+div.social a:hover{
+    transform: scale(1.2);
+}
+
+/* media queries  */
+@media screen and (max-width : 1235px){
+    div.social {
+        flex-direction: row;
+        font-size: 1.5rem
+    }
+}

@@ -1,0 +1,101 @@
+div.work__container {
+    width: 100%;
+    max-width: 100%;
+    /* background-color: #F5F5F5; */
+    margin: auto;
+    height: auto;
+    padding-top: 4rem;
+}
+
+h3.reponsive-heading {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+p.sub-heading{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+ div.cards-container {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+
+div.card{
+    width: 300px;
+    height: 350px;
+    margin: 1rem 1.5rem 2.5rem 1rem;
+    /* border-top-left-radius: 10px; */
+    border-radius: 10px;
+    transition: all 1s;
+    box-shadow: 2px 1px 6px -2px rgba(0, 0, 0, .5);
+    padding: 1rem;
+}
+
+div.card:hover{
+    transform: scale(1.1);
+}
+
+div.card img.project-img {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+div.card img.project-img:hover {
+    filter: brightness(50%);
+}
+
+
+div.desc {
+    padding: .5rem;
+}
+
+a.demo-btn{
+width: 100%;
+background-color: #10106d;
+color: #f8f8f8;
+border-radius: 2px;
+padding: 0.3rem 1rem;
+font-size: 1rem;
+letter-spacing: 1px;
+transition: all .5s;
+cursor: pointer;
+text-decoration: none;
+display: inline-block;
+text-align: center;
+}
+
+
+ @media screen and (max-width : 773px) {
+    div.card {
+        width: 100%;
+        margin: 1.5rem;
+        height: auto;
+    }
+
+    div.card img.project-img {
+        width: 100%;
+        height: 325px;
+        position: relative;
+        border-radius: 10px
+    }
+    
+} 
+
+@media screen and (max-width : 600px) {
+    div.card img.project-img {
+       height: 225px;
+    }
+    
+} 

@@ -1,0 +1,30 @@
+div.skills__container {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+    padding-top: 4rem;
+    /* background-color: aquamarine; */
+}
+
+p.sub-heading{
+    text-align: center;
+}
+
+div.skills-tabs {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin:  1rem auto;
+    width: 95%;
+    /* background-color: antiquewhite; */
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width : 1217px){
+    div.skills-tabs {
+        gap: 1.5rem;
+    }
+}

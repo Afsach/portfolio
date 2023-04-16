@@ -29,7 +29,7 @@ const Navbar = ({setTitle}) => {
             <nav className='nav__list'>
                 <div>
                     <h1 className="logo">
-                        <a href="#Home"> Afsarjahan</a>
+                        <a href="#Home"> Afsarjahan ansari</a>
                     </h1>
                 </div>
                 <div className="nav__list-container">

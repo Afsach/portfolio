@@ -1,7 +1,6 @@
 div.work__container {
     width: 100%;
     max-width: 100%;
-    /* background-color: #F5F5F5; */
     margin: auto;
     height: auto;
     padding-top: 4rem;
@@ -33,7 +32,6 @@ div.card{
     width: 300px;
     height: auto;
     margin: 1rem 1.5rem 2.5rem 1rem;
-    /* border-top-left-radius: 10px; */
     border-radius: 10px;
     transition: all 1s;
     box-shadow: 2px 1px 6px -2px rgba(0, 0, 0, .5);

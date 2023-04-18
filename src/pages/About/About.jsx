@@ -41,12 +41,6 @@ const About = () => {
             <li>
               I'm a developer with a passion for creating visually stunning and user-friendly websites and applications. With a strong understanding of web technologies such as HTML, CSS, and JavaScript, I enjoy designing and developing intuitive and responsive interfaces that provide seamless user experiences.
             </li>
-            {/* <li>
-              As a frontend developer, I'm excited about the possibilities of what I can create with code, and I'm committed to delivering innovative and intuitive web solutions that help businesses and organizations connect with their audiences in meaningful ways.
-            </li>
-            <li>
-              I constantly seek to learn and stay up-to-date with the latest web development trends and techniques, as well as keeping an eye on emerging technologies that can enhance the user experience.
-            </li> */}
           </ul>
         </div>
       </div>

@@ -22,17 +22,9 @@ nav.nav__list {
     max-width: 100%;
 }
 
-h1 a {
-    font-size: 1.5rem;
-    /* font-family: 'Great Vibes', cursive; */
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-    font-weight:300 ;
-}
-
-h1.logo a:hover {
-    color: gray;
+h1 a img.logo{
+   width: 150px;
+   cursor: pointer;
 }
 
 ul.nav__list-items {

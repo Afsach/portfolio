@@ -145,7 +145,7 @@ div.btn-container {
 }
 
 @media screen and (max-width : 529px){
-    div img {
+    div img.profile-img {
         margin-bottom: 1.5rem;
     }
     h3 {

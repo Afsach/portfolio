@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import { BiAlignRight } from "react-icons/bi";
 import { VscChromeClose } from "react-icons/vsc";
+import Logo from './../../assets/Img/AfsarJaha.png'
 
 
 const Navbar = ({setTitle}) => {
@@ -28,8 +29,8 @@ const Navbar = ({setTitle}) => {
         <section className='section__container'>
             <nav className='nav__list'>
                 <div>
-                    <h1 className="logo">
-                        <a href="#Home"> Afsarjahan ansari</a>
+                    <h1>
+                        <a href="#Home"> <img src={Logo} className="logo" alt="Logo" /></a>
                     </h1>
                 </div>
                 <div className="nav__list-container">

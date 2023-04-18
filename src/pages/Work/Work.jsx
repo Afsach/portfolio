@@ -1,27 +1,15 @@
-import React, {useRef, useState, useEffect} from 'react';
+import React  from 'react';
 import './Work.css'
-import { data } from './data';
+import textUtilImg from './../../assets/Img/textutilfortext.png'
+import fitness4u from './../../assets/Img/Fitness4u.png'
+import youtubecopie from './../../assets/Img/youtubecopie.png'
+import qrcode from './../../assets/Img/qrcode4u.png'
 import { titleFunction } from '../titleFunction';
 
 const Work = () => {
-  // const [description, setDescription] = useState(data[0].description)
-   const descriptionRef = useRef([data[0].description]);
 
  titleFunction("Afsarjahan Ansari's portfolio | Work ")
 
-//  const resizeHandle = ()=> {
-//   if(!window.innerWidth <= '773'){
-//     setDescription(description.substring(0,40))
-//   }
-//   else{
-//    setDescription(data[0].description) 
-//  }
-// }
-
-useEffect(()=>{
-  
-},[window.innerWidth])
-  
   return (
     <>
       <div
@@ -31,19 +19,38 @@ useEffect(()=>{
         <h3 className='reponsive-heading'>My Work</h3>
         <p className="sub-heading">Projects Done By Me</p>
         <div className='cards-container'>
-          {
-            data.map((card) => (
-              <div className="card" key={card.projectUrl}>
-                <img src={card.imgUrl} alt="project image" className='project-img' />
+              <div className="card">
+                <img src={textUtilImg} alt="project image" className='project-img' />
                 <div className="desc">
-                  <h5 className='project-title'>{card.name}</h5>
-                  <p className="card-description">{window.innerWidth<='773' ? descriptionRef.current = card.description : card.description.substring(0, 40) + "..."}</p>
-                  {/* <p className="card-description"  onResize={resizeHandle}>{card.description}</p> */}
-                  <a href={card.projectUrl} className="demo-btn" target='_blank'>Demo</a>
+                  <h5 className='project-title'>TextUtils4U</h5>
+                  <p className="card-description">Everything you need to edit your text at one place. Preview your manipulated text </p>
+                  <a href="https://textutilsfortext.netlify.app/" className="demo-btn" target='_blank'>Demo</a>
                 </div>
               </div>
-            ))
-          }
+              <div className="card">
+                <img src={fitness4u} alt="project image" className='project-img' />
+                <div className="desc">
+                  <h5 className='project-title'>Fitness4U</h5>
+                  <p className="card-description">Every exercize is available for your healthy routine just search for it in one go</p>
+                  <a href="https://63f87c57848cf86fa19d7991--fitnesss4u.netlify.app/" className="demo-btn" target='_blank'>Demo</a>
+                </div>
+              </div>
+              <div className="card">
+                <img src={youtubecopie} alt="project image" className='project-img' />
+                <div className="desc">
+                  <h5 className='project-title'>Youtubecopie</h5>
+                  <p className="card-description">Enjoy add free youtube videos, similar videos, search for channels and contents</p>
+                  <a href="https://youtubecopie.netlify.app/" className="demo-btn" target='_blank'>Demo</a>
+                </div>
+              </div>
+              <div className="card">
+                <img src={qrcode} alt="project image" className='project-img' />
+                <div className="desc">
+                  <h5 className='project-title'>QrCodeGenerator4U</h5>
+                  <p className="card-description">For your every text and link generate Qr Code here only Just paste the link or text.</p>
+                  <a href="https://qrcodegenerator4u.netlify.app/" className="demo-btn" target='_blank'>Demo</a>
+                </div>
+              </div>
         </div>
       </div>
     </>

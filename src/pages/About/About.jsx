@@ -1,9 +1,9 @@
 import React from 'react';
 import './About.css';
 import AboutImg from '../../assets/Img/About.png';
-import { BiCertification } from 'react-icons/bi';
+import { GiAchievement } from 'react-icons/gi';
 import { FaLaptopCode } from 'react-icons/fa';
-import { TbStairsUp } from 'react-icons/tb'
+import { TbTargetArrow } from 'react-icons/tb'
 import { titleFunction } from '../titleFunction';
 
 
@@ -22,17 +22,17 @@ const About = () => {
         <div className="about-details">
           <div className="about-items">
             <div className="about-item">
-              <FaLaptopCode className='about-icons' />
+              <FaLaptopCode style={{color : '#10106D'}} className='about-icons' />
               <h5 className='about-heading'>Projects</h5>
               <p className='sub-heading'>Ten plus mini and major projects which can be found in my github repositories</p>
             </div>
             <div className="about-item">
-              <BiCertification className='about-icons' />
+              <GiAchievement style={{color : '#10106D'}} className='about-icons' />
               <h5 className='about-heading'>Certification</h5>
               <p className='sub-heading'>Meta Front-End Developer Professional Certificate Sponsored by Coursera</p>
             </div>
             <div className="about-item">
-              <TbStairsUp className='about-icons' />
+              <TbTargetArrow style={{color : '#10106D'}} className='about-icons' />
               <h5 className='about-heading'>Goal</h5>
               <p className='sub-heading'>To become a full-stack developer, building production-ready applications</p>
             </div>

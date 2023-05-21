@@ -4,6 +4,7 @@ import textUtilImg from './../../assets/Img/textutilfortext.png'
 import fitness4u from './../../assets/Img/Fitness4u.png'
 import youtubecopie from './../../assets/Img/youtubecopie.png'
 import qrcode from './../../assets/Img/qrcode4u.png'
+import taskManger4u from  './../../assets/Img/taskMangager4u.png';
 import { titleFunction } from '../titleFunction';
 
 const Work = () => {
@@ -49,6 +50,14 @@ const Work = () => {
                   <h5 className='project-title'>QrCodeGenerator4U</h5>
                   <p className="card-description">For your every text and link generate Qr Code here only Just paste the link or text.</p>
                   <a href="https://qrcodegenerator4u.netlify.app/" className="demo-btn" target='_blank'>Demo</a>
+                </div>
+              </div>
+              <div className="card">
+                <img src={taskManger4u} alt="project image" className='project-img' />
+                <div className="desc">
+                  <h5 className='project-title'>TaskManager4u</h5>
+                  <p className="card-description">Schedule your daily task on your mobile or laptop this stores data on browser itself.</p>
+                  <a href="https://taskmanger4u.netlify.app/" className="demo-btn" target='_blank'>Demo</a>
                 </div>
               </div>
         </div>

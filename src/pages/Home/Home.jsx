@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css';
 import Img from '../../assets/Img/About.png'
 import Social from './Social/Socail';
-import CV from '../../assets/Img/Afsarjahan_ansari.pdf'
+import CV from '../../assets/Img/Afsarjahan__Ansari.pdf';
 import { titleFunction } from '../titleFunction';
 
 const Home = () => {
